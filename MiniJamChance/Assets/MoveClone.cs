@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MoveClone : MonoBehaviour
 {
-    int speed = 5;
+    public int speed = 3;
     public List<MatrizTM> Moves;
     public Vector3 tar;
 

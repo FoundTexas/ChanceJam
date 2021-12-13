@@ -1,7 +1,142 @@
 fileFormatVersion: 2
 guid: 82a230b47428b2b4b9053870e843baca
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 229395018008720978
+    second: character_femaleAdventurer_sheet_0
+  - first:
+      213: -1662156775536959249
+    second: character_femaleAdventurer_sheet_1
+  - first:
+      213: 11324360291856359
+    second: character_femaleAdventurer_sheet_2
+  - first:
+      213: -6513941430409244263
+    second: character_femaleAdventurer_sheet_3
+  - first:
+      213: -7678389054226022116
+    second: character_femaleAdventurer_sheet_4
+  - first:
+      213: 1144102854764246051
+    second: character_femaleAdventurer_sheet_5
+  - first:
+      213: 1369755301149515418
+    second: character_femaleAdventurer_sheet_6
+  - first:
+      213: -785591350491247021
+    second: character_femaleAdventurer_sheet_7
+  - first:
+      213: 5554177796619248159
+    second: character_femaleAdventurer_sheet_8
+  - first:
+      213: -4752575311466423774
+    second: character_femaleAdventurer_sheet_9
+  - first:
+      213: -7601754151834945039
+    second: character_femaleAdventurer_sheet_10
+  - first:
+      213: 3431655471555848625
+    second: character_femaleAdventurer_sheet_11
+  - first:
+      213: -591240025155538268
+    second: character_femaleAdventurer_sheet_12
+  - first:
+      213: 6477989553037541853
+    second: character_femaleAdventurer_sheet_13
+  - first:
+      213: 7474466634757066818
+    second: character_femaleAdventurer_sheet_14
+  - first:
+      213: 8662735896272704821
+    second: character_femaleAdventurer_sheet_15
+  - first:
+      213: -5169503002562404269
+    second: character_femaleAdventurer_sheet_16
+  - first:
+      213: -433888544767433852
+    second: character_femaleAdventurer_sheet_17
+  - first:
+      213: -8927697672224388780
+    second: character_femaleAdventurer_sheet_18
+  - first:
+      213: -4028643064439809189
+    second: character_femaleAdventurer_sheet_19
+  - first:
+      213: -8540040716049973881
+    second: character_femaleAdventurer_sheet_20
+  - first:
+      213: -4638622866751103742
+    second: character_femaleAdventurer_sheet_21
+  - first:
+      213: -6341122352307106425
+    second: character_femaleAdventurer_sheet_22
+  - first:
+      213: 6738986028995836419
+    second: character_femaleAdventurer_sheet_23
+  - first:
+      213: 3077882844077997413
+    second: character_femaleAdventurer_sheet_24
+  - first:
+      213: 4882657078418627583
+    second: character_femaleAdventurer_sheet_25
+  - first:
+      213: 7054516914569996141
+    second: character_femaleAdventurer_sheet_26
+  - first:
+      213: -3540777533622174061
+    second: character_femaleAdventurer_sheet_27
+  - first:
+      213: 2569877082839000219
+    second: character_femaleAdventurer_sheet_28
+  - first:
+      213: -3940850301486119866
+    second: character_femaleAdventurer_sheet_29
+  - first:
+      213: 2260948022003977912
+    second: character_femaleAdventurer_sheet_30
+  - first:
+      213: -5077508371159884425
+    second: character_femaleAdventurer_sheet_31
+  - first:
+      213: 3074062834356218466
+    second: character_femaleAdventurer_sheet_32
+  - first:
+      213: -6266479010278836708
+    second: character_femaleAdventurer_sheet_33
+  - first:
+      213: -7280440445620300695
+    second: character_femaleAdventurer_sheet_34
+  - first:
+      213: 32487501990019946
+    second: character_femaleAdventurer_sheet_35
+  - first:
+      213: -700341977584692145
+    second: character_femaleAdventurer_sheet_36
+  - first:
+      213: -7631010355227147390
+    second: character_femaleAdventurer_sheet_37
+  - first:
+      213: -8445754779855312591
+    second: character_femaleAdventurer_sheet_38
+  - first:
+      213: 9135716588421653594
+    second: character_femaleAdventurer_sheet_39
+  - first:
+      213: -5830746052484996060
+    second: character_femaleAdventurer_sheet_40
+  - first:
+      213: -4295364106171840961
+    second: character_femaleAdventurer_sheet_41
+  - first:
+      213: 1810376272730840104
+    second: character_femaleAdventurer_sheet_42
+  - first:
+      213: -5833574059654184031
+    second: character_femaleAdventurer_sheet_43
+  - first:
+      213: -3569109809870536897
+    second: character_femaleAdventurer_sheet_44
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -31,7 +166,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -40,7 +175,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -71,9 +206,990 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: character_femaleAdventurer_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 512
+        width: 64
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25677a1bd89fe2300800000000000000
+      internalID: 229395018008720978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_femaleAdventurer_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 512
+        width: 80
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe06c191835dee8e0800000000000000
+      internalID: -1662156775536959249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_femaleAdventurer_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 513
+        width: 92
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ef2188127b382000800000000000000
+      internalID: 11324360291856359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_femaleAdventurer_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 512
+        width: 60
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 991d1c808c4d995a0800000000000000
+      internalID: -6513941430409244263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_femaleAdventurer_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 516
+        width: 95
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c114c9746d1e07590800000000000000
+      internalID: -7678389054226022116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_femaleAdventurer_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 512
+        width: 69
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 324bbb41c7ba0ef00800000000000000
+      internalID: 1144102854764246051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_femaleAdventurer_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 512
+        width: 68
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9e993a6039520310800000000000000
+      internalID: 1369755301149515418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_femaleAdventurer_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 512
+        width: 77
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35e895734d40915f0800000000000000
+      internalID: -785591350491247021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_femaleAdventurer_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 515
+        width: 77
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f122ada5747641d40800000000000000
+      internalID: 5554177796619248159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_femaleAdventurer_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 384
+        width: 64
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22a90c73fe57b0eb0800000000000000
+      internalID: -4752575311466423774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_femaleAdventurer_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 384
+        width: 87
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f9f60eefd4218690800000000000000
+      internalID: -7601754151834945039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_femaleAdventurer_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 384
+        width: 85
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b9ac9d3870bf9f20800000000000000
+      internalID: 3431655471555848625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_femaleAdventurer_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 384
+        width: 84
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a27c93645e7bc7f0800000000000000
+      internalID: -591240025155538268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_femaleAdventurer_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 384
+        width: 87
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd18e773d2176e950800000000000000
+      internalID: 6477989553037541853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_femaleAdventurer_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 384
+        width: 91
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 240543a8dc3aab760800000000000000
+      internalID: 7474466634757066818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_femaleAdventurer_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 384
+        width: 54
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5351c588668383870800000000000000
+      internalID: 8662735896272704821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_femaleAdventurer_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 384
+        width: 69
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 350e3fa886c3248b0800000000000000
+      internalID: -5169503002562404269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_femaleAdventurer_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 388
+        width: 72
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 483a609daa48af9f0800000000000000
+      internalID: -433888544767433852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_femaleAdventurer_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 256
+        width: 78
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 459cbf0a4427a1480800000000000000
+      internalID: -8927697672224388780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_femaleAdventurer_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 259
+        width: 85
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5b59314a726718c0800000000000000
+      internalID: -4028643064439809189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_femaleAdventurer_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 258
+        width: 73
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78df770473eab7980800000000000000
+      internalID: -8540040716049973881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_femaleAdventurer_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 256
+        width: 55
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20ddb44441d40afb0800000000000000
+      internalID: -4638622866751103742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_femaleAdventurer_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 256
+        width: 71
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78d027931decff7a0800000000000000
+      internalID: -6341122352307106425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_femaleAdventurer_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 256
+        width: 53
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30afd94b610b58d50800000000000000
+      internalID: 6738986028995836419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_femaleAdventurer_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 258
+        width: 71
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56db98da326d6ba20800000000000000
+      internalID: 3077882844077997413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_femaleAdventurer_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 258
+        width: 83
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffb503f4ebea2c340800000000000000
+      internalID: 4882657078418627583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_femaleAdventurer_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 264
+        width: 96
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d67ede2e1cda6e160800000000000000
+      internalID: 7054516914569996141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_femaleAdventurer_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 128
+        width: 84
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39e34cfc791acdec0800000000000000
+      internalID: -3540777533622174061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_femaleAdventurer_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 128
+        width: 81
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b94290f47990aa320800000000000000
+      internalID: 2569877082839000219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_femaleAdventurer_sheet_29
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 128
+        width: 93
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 644cde2c7894f49c0800000000000000
+      internalID: -3940850301486119866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_femaleAdventurer_sheet_30
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 128
+        width: 59
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8be4b2b3f30806f10800000000000000
+      internalID: 2260948022003977912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_femaleAdventurer_sheet_31
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 128
+        width: 86
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77d51f8c9011989b0800000000000000
+      internalID: -5077508371159884425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_femaleAdventurer_sheet_32
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 128
+        width: 60
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26a680b5cd349aa20800000000000000
+      internalID: 3074062834356218466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_femaleAdventurer_sheet_33
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 133
+        width: 94
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1673e79a8ef809a0800000000000000
+      internalID: -6266479010278836708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_femaleAdventurer_sheet_34
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 128
+        width: 93
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9645a66fcfda6fa90800000000000000
+      internalID: -7280440445620300695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_femaleAdventurer_sheet_35
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 136
+        width: 75
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6341cff53b637000800000000000000
+      internalID: 32487501990019946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_femaleAdventurer_sheet_36
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1
+        width: 74
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4415c49ea2e746f0800000000000000
+      internalID: -700341977584692145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_femaleAdventurer_sheet_37
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 0
+        width: 64
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 283cb534384391690800000000000000
+      internalID: -7631010355227147390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_femaleAdventurer_sheet_38
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 0
+        width: 58
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 139aaa676c6aaca80800000000000000
+      internalID: -8445754779855312591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_femaleAdventurer_sheet_39
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 0
+        width: 64
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a54248585d598ce70800000000000000
+      internalID: 9135716588421653594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_femaleAdventurer_sheet_40
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 0
+        width: 74
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 424ee1e9b57051fa0800000000000000
+      internalID: -5830746052484996060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_femaleAdventurer_sheet_41
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 0
+        width: 65
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f360aae6a1dc364c0800000000000000
+      internalID: -4295364106171840961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_femaleAdventurer_sheet_42
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 0
+        width: 58
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82cdae5d0afbf1910800000000000000
+      internalID: 1810376272730840104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_femaleAdventurer_sheet_43
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 0
+        width: 64
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a30163ec4bfa0fa0800000000000000
+      internalID: -5833574059654184031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_femaleAdventurer_sheet_44
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 9
+        width: 94
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3ffd42b989f77ec0800000000000000
+      internalID: -3569109809870536897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

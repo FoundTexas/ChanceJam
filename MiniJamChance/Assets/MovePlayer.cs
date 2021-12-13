@@ -49,28 +49,24 @@ public class MovePlayer : MonoBehaviour
         {
             if (Input.anyKey)
             {
-                if(mclones.Count > 0)
+                if (!Won)
                 {
-                    if (mclones.Count < CloneAmount)
+                    if (mclones.Count > 0)
                     {
-                        ReadMoves();
-                        canInput = true;
+                        if (mclones.Count < CloneAmount)
+                        {
+                            ReadMoves();
+                            canInput = true;
+                        }
                     }
                     else
                     {
-                        if (Won)
-                        {
-                            Debug.Log(Won);
-                        }
-                        else if(!Won)
-                        {
-                            Debug.Log(Won);
-                        }
+                        canInput = true;
                     }
                 }
-                else
+                else if (Won)
                 {
-                    canInput = true;
+                    Debug.Log("Won");
                 }
             }
         }

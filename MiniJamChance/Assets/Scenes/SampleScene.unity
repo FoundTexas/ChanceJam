@@ -657,7 +657,7 @@ GameObject:
   m_Component:
   - component: {fileID: 771420224}
   - component: {fileID: 771420223}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Grid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1638,7 +1638,7 @@ GameObject:
   - component: {fileID: 944390361}
   - component: {fileID: 944390363}
   - component: {fileID: 944390362}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Win
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2007,7 +2007,7 @@ MonoBehaviour:
   Instuct: {fileID: 410329298}
   WSM:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 256
 --- !u!212 &1037710972
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2089,7 +2089,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.35
 --- !u!50 &1037710975
 Rigidbody2D:
   serializedVersion: 4
@@ -2417,6 +2417,7 @@ GameObject:
   - component: {fileID: 1367586810}
   - component: {fileID: 1367586809}
   - component: {fileID: 1367586808}
+  - component: {fileID: 1367586812}
   m_Layer: 8
   m_Name: Colissions
   m_TagString: Untagged
@@ -2951,6 +2952,27 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!50 &1367586812
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1367586806}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1447492965
 GameObject:
   m_ObjectHideFlags: 0
@@ -3476,7 +3498,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: cf7de1a8fad96584e8957a672f49304c, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.028
   m_Pitch: 1
   Loop: 1
   Mute: 0

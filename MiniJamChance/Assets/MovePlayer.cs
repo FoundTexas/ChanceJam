@@ -90,7 +90,7 @@ public class MovePlayer : MonoBehaviour
             {
                 if (Mathf.Abs(Dir.x) == 1)
                 {
-                    if (!Physics2D.OverlapCircle(new Vector2(curPos.x + Dir.x, curPos.y), 0.2f, WSM))
+                    if (!Physics2D.OverlapCircle(new Vector2(curPos.x + Dir.x, curPos.y + Dir.y), 0.2f, WSM))
                     {
                         curPos.x += Dir.x;
                     }
@@ -101,7 +101,7 @@ public class MovePlayer : MonoBehaviour
                 }
                 else if (Mathf.Abs(Dir.y) == 1)
                 {
-                    if (!Physics2D.OverlapCircle(new Vector2(curPos.x + Dir.x, curPos.y), 0.2f, WSM))
+                    if (!Physics2D.OverlapCircle(new Vector2(curPos.x + Dir.x, curPos.y + Dir.y), 0.2f, WSM))
                     {
                         curPos.y += Dir.y;
                     }

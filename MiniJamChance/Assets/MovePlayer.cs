@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 [Serializable]
 public class MatrizTM
@@ -26,10 +27,12 @@ public class MovePlayer : MonoBehaviour
     public List<MoveClone> mclones;
     public float moveSpeed = 5f, TimeStamp, StartCloneTime = 10;
     float CurCloneTime, CurrentTime;
-    public Vector3 curPos, Dir;
+    public Vector3 curPos, Dir, lastpos;
     public List <MatrizTM> Moves;
-    public GameObject clone;
+    public GameObject clone, Instuct;
     bool canInput, Won;
+
+    public LayerMask WSM;
     // Start is called before the first frame update
     void Start()
     {
@@ -44,6 +47,7 @@ public class MovePlayer : MonoBehaviour
     void Update()
     {
         CurTimeUI.value = CurCloneTime;
+        Instuct.SetActive(!canInput);
 
         if (!canInput)
         {
@@ -57,6 +61,10 @@ public class MovePlayer : MonoBehaviour
                         {
                             ReadMoves();
                             canInput = true;
+                        }
+                        else
+                        {
+                            FindObjectOfType<SceneLoader>().Reload();
                         }
                     }
                     else
@@ -82,7 +90,10 @@ public class MovePlayer : MonoBehaviour
             {
                 if (Mathf.Abs(Dir.x) == 1)
                 {
-                    curPos.x += Dir.x;
+                    if (!Physics2D.OverlapCircle(new Vector2(curPos.x + Dir.x, curPos.y), 0.2f, WSM))
+                    {
+                        curPos.x += Dir.x;
+                    }
                     TimeStamp = CurrentTime;
                     CurrentTime = 0;
                     MatrizTM tmp = new MatrizTM(TimeStamp, curPos);
@@ -90,7 +101,10 @@ public class MovePlayer : MonoBehaviour
                 }
                 else if (Mathf.Abs(Dir.y) == 1)
                 {
-                    curPos.y += Dir.y;
+                    if (!Physics2D.OverlapCircle(new Vector2(curPos.x + Dir.x, curPos.y), 0.2f, WSM))
+                    {
+                        curPos.y += Dir.y;
+                    }
                     TimeStamp = CurrentTime;
                     CurrentTime = 0;
                     MatrizTM tmp = new MatrizTM(TimeStamp, curPos);
@@ -134,6 +148,7 @@ public class MovePlayer : MonoBehaviour
             if (curKeys >= KeysAmount)
             {
                 Won = true;
+                FindObjectOfType<SceneLoader>().Load(SceneManager.GetActiveScene().buildIndex + 1);
             }
 
         }
@@ -142,5 +157,10 @@ public class MovePlayer : MonoBehaviour
             Destroy(collision.gameObject);
             curKeys++;
         }
+    }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        Debug.Log("COL");
+        Dir = lastpos;
     }
 }

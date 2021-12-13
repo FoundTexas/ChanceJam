@@ -19,6 +19,7 @@ public class MoveClone : MonoBehaviour
 
     public void Go()
     {
+        StopAllCoroutines();
         StartCoroutine(ReadMoves());
     }
 

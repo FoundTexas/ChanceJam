@@ -21,6 +21,7 @@ public class MatrizTM
 
 public class MovePlayer : MonoBehaviour
 {
+    public Animator anim;
     public Slider CurTimeUI;
     public int CloneAmount = 3, KeysAmount = 1;
     int curKeys;
@@ -41,6 +42,7 @@ public class MovePlayer : MonoBehaviour
         CurCloneTime = 0;
         CurrentTime = 0;
         CurTimeUI.maxValue = StartCloneTime;
+        anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -99,7 +101,7 @@ public class MovePlayer : MonoBehaviour
                     MatrizTM tmp = new MatrizTM(TimeStamp, curPos);
                     Moves.Add(tmp);
                 }
-                else if (Mathf.Abs(Dir.y) == 1)
+                if (Mathf.Abs(Dir.y) == 1)
                 {
                     if (!Physics2D.OverlapCircle(new Vector2(curPos.x + Dir.x, curPos.y + Dir.y), 0.2f, WSM))
                     {
@@ -130,6 +132,7 @@ public class MovePlayer : MonoBehaviour
                 }
             }
         }
+        anim.SetFloat("speed", Dir.magnitude);
     }
 
     public void ReadMoves()

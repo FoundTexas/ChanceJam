@@ -7,6 +7,12 @@ public class MoveClone : MonoBehaviour
     public int speed = 3;
     public List<MatrizTM> Moves;
     public Vector3 tar;
+    Animator anim;
+
+    private void Start()
+    {
+        anim = GetComponent<Animator>();
+    }
 
     public void GetMoves(List<MatrizTM> m)
     {
@@ -29,6 +35,7 @@ public class MoveClone : MonoBehaviour
         {
             yield return new WaitForSeconds(m.time);
             tar = m.pos;
+            anim.SetFloat("speed", 1);
         }
     }
 
@@ -39,6 +46,11 @@ public class MoveClone : MonoBehaviour
         {
             float step = speed * Time.deltaTime;
             transform.position = Vector3.MoveTowards(transform.position, tar, step);
+            
+        }
+        else if (Vector3.Distance(transform.position, tar) <= 0.01f)
+        {
+            anim.SetFloat("speed", 0);
         }
     }
 }

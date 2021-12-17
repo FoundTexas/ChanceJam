@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class Sitcky : MonoBehaviour
 {
-    public bool Replace;
+    public int Replace;
     public static Sitcky inst;
     // Start is called before the first frame update
     void Start()
     {
-        if (!Replace)
+        if (Replace <= 0)
         {
             Debug.Log("D");
             if (inst == null)
@@ -22,7 +22,7 @@ public class Sitcky : MonoBehaviour
 
             }
         }
-        else if (Replace)
+        else if (Replace > 0)
         {
             if (inst == null)
             {
@@ -35,6 +35,7 @@ public class Sitcky : MonoBehaviour
                 inst = this;
 
             }
+            Replace--;
         }
         DontDestroyOnLoad(inst);
     }

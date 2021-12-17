@@ -12,14 +12,17 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: 982162f8ddf7c5846a19e3cb5a8100f4
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Scenes/Tutorial1.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/SampleScene 1.unity
+    path: Assets/Scenes/Tutorial2.unity
     guid: bfb0dd4c5826c5941bfcaaf914273ea8
   - enabled: 1
-    path: Assets/Scenes/SampleScene 2.unity
+    path: Assets/Scenes/Tutorial3.unity
     guid: eaa3fd9f7aa797640b9184b533beea4b
+  - enabled: 1
+    path: Assets/Scenes/ContinueTutorial.unity
+    guid: 59a8193c6c8898441bf11d2616a2df04
   - enabled: 1
     path: Assets/Scenes/SampleScene 4.unity
     guid: c268c58ab3708804d823faea9db91268

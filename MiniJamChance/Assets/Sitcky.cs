@@ -4,22 +4,39 @@ using UnityEngine;
 
 public class Sitcky : MonoBehaviour
 {
+    public bool Replace;
     public static Sitcky inst;
     // Start is called before the first frame update
     void Start()
     {
-        if(inst == null)
+        if (!Replace)
         {
-            inst = this;
+            Debug.Log("D");
+            if (inst == null)
+            {
+                inst = this;
+            }
+            else if (inst != this)
+            {
+                Destroy(this.gameObject);
+
+            }
         }
-        else if (inst != this)
+        else if (Replace)
         {
-            Destroy(this.gameObject);
+            if (inst == null)
+            {
+                inst = this;
+            }
+            else if (inst != this)
+            {
+                Debug.Log("R");
+                Destroy(inst.gameObject);
+                inst = this;
 
+            }
         }
-
-            DontDestroyOnLoad(inst);
-        
+        DontDestroyOnLoad(inst);
     }
 
 }

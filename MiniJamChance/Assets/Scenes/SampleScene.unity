@@ -389,6 +389,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7447204098365933436, guid: 5948aa27ce406564c9388e71e1579307,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7960024120947964704, guid: 5948aa27ce406564c9388e71e1579307,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7960024120947964704, guid: 5948aa27ce406564c9388e71e1579307,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7960024120947964704, guid: 5948aa27ce406564c9388e71e1579307,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8492256222274929539, guid: 5948aa27ce406564c9388e71e1579307,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2666,6 +2686,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b6d217c4100afc4bb44b8b6d2e0b8f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Replace: 1
 --- !u!82 &2120477203
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2676,9 +2697,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: cf7de1a8fad96584e8957a672f49304c, type: 3}
+  m_audioClip: {fileID: 8300000, guid: c81a2209a2f73a24c8071df63c23fd91, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.028
+  m_Volume: 0.364
   m_Pitch: 1
   Loop: 1
   Mute: 0

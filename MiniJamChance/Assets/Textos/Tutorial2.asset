@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 47b201221f49f47a992ce420502f78a6, type: 3}
-  m_Name: Tutorial1
+  m_Name: Tutorial2
   m_EditorClassIdentifier: 
   Left: {fileID: 11400000, guid: f8363d68755db7847972453b9217ce86, type: 2}
   Right: {fileID: 11400000, guid: f8363d68755db7847972453b9217ce86, type: 2}
@@ -19,10 +19,15 @@ MonoBehaviour:
     ImageIndex: 0
     ImageIndexTwo: 0
     VoiceIndex: 0
-    text: "Use WASD to move arround and go to the yellow circle. \n[SPACE to continue]"
+    text: Move to the PURPLE dot to disable some obstacles.
   - character: {fileID: 11400000, guid: f8363d68755db7847972453b9217ce86, type: 2}
     ImageIndex: 0
     ImageIndexTwo: 0
     VoiceIndex: 0
-    text: Be carefull of the timer TOP RIGHT once it runs out you will hop to a parallel
-      Universe.
+    text: Once you reach the purple spot press SPACE to add a clone.
+  - character: {fileID: 11400000, guid: f8363d68755db7847972453b9217ce86, type: 2}
+    ImageIndex: 0
+    ImageIndexTwo: 0
+    VoiceIndex: 0
+    text: This clones represent a version of you in a parallel universe and will
+      help you complete these puzzles by merging realities.

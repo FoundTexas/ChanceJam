@@ -34,7 +34,7 @@ public class DialogDisplay : MonoBehaviour
         if (!m)
         {
 
-           // player = GameObject.FindGameObjectWithTag("Player");
+            player = GameObject.FindGameObjectWithTag("Player");
             //Gun = GameObject.FindGameObjectWithTag("WH");
         }
         StarDialogue(conversation);
@@ -52,7 +52,7 @@ public class DialogDisplay : MonoBehaviour
         if (!m)
         {
            // player.GetComponent<Animator>().Play("Player_Idle");
-            //player.GetComponent<PlayerMovement>().enabled = false;
+            player.GetComponent<MovePlayer>().enabled = false;
             //Gun.SetActive(false);
         }
 
@@ -93,8 +93,8 @@ public class DialogDisplay : MonoBehaviour
             if (!m)
             {
                 player.GetComponent<Animator>().Play("Idle Tree");
-                //player.GetComponent<TopDownMove>().enabled = true;
-                Gun.SetActive(true);
+                player.GetComponent<MovePlayer>().enabled = true;
+                //Gun.SetActive(true);
             }
 
             //player.GetComponent<Player>().Dialogue();

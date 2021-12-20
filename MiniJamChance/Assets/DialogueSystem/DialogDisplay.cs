@@ -25,6 +25,8 @@ public class DialogDisplay : MonoBehaviour
 
     void Start()
     {
+        Debug.Log("f");
+
         audios = GetComponent<AudioSource>();
         
 
@@ -92,7 +94,6 @@ public class DialogDisplay : MonoBehaviour
             speakerUIRight.Hide();
             if (!m)
             {
-                player.GetComponent<Animator>().Play("Idle Tree");
                 player.GetComponent<MovePlayer>().enabled = true;
                 //Gun.SetActive(true);
             }

@@ -21,6 +21,9 @@ public class MatrizTM
 
 public class MovePlayer : MonoBehaviour
 {
+    public GameObject cloneUIpref;
+    public Transform Groupe; 
+    public List <GameObject> cloneUI;
     public Animator anim;
     public Slider CurTimeUI;
     public int CloneAmount = 3, KeysAmount = 1;
@@ -37,6 +40,13 @@ public class MovePlayer : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Debug.Log("s");
+        for (int i = 0; i < CloneAmount; i++)
+        {
+            GameObject g = Instantiate(cloneUIpref, Groupe.position, Quaternion.identity,Groupe);
+            cloneUI.Add(g);
+            Debug.Log("f");
+        }
         curKeys = 0;
         curPos = new Vector3(0.5f, 0.5f);
         CurCloneTime = 0;
@@ -115,6 +125,8 @@ public class MovePlayer : MonoBehaviour
             }
             if (Input.GetKeyDown("space") || CurCloneTime >= StartCloneTime)
             {
+                Destroy(cloneUI[0]);
+                cloneUI.RemoveAt(0);
                 CurrentTime = 0;
                 CurCloneTime = 0;
                 canInput = false;

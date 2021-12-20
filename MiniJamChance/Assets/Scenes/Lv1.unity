@@ -2005,7 +2005,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 5
-      m_TileSpriteIndex: 4
+      m_TileSpriteIndex: 7
       m_TileMatrixIndex: 0
       m_TileColorIndex: 4
       m_TileObjectToInstantiateIndex: 65535
@@ -2035,7 +2035,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 5
-      m_TileSpriteIndex: 0
+      m_TileSpriteIndex: 4
       m_TileMatrixIndex: 0
       m_TileColorIndex: 4
       m_TileObjectToInstantiateIndex: 65535
@@ -2118,9 +2118,8 @@ Tilemap:
   - m_RefCount: 0
     m_Data: {fileID: 0}
   m_TileSpriteArray:
-  - m_RefCount: 1
-    m_Data: {fileID: -3954387363607480366, guid: 9891e7f1228aa9043a985c97fa8c8709,
-      type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 4
     m_Data: {fileID: -154458769112564148, guid: 9891e7f1228aa9043a985c97fa8c8709,
       type: 3}
@@ -2130,7 +2129,7 @@ Tilemap:
     m_Data: {fileID: -5955762634460491016, guid: 9891e7f1228aa9043a985c97fa8c8709,
       type: 3}
   - m_RefCount: 1
-    m_Data: {fileID: 4680024611940793242, guid: 9891e7f1228aa9043a985c97fa8c8709,
+    m_Data: {fileID: -3954387363607480366, guid: 9891e7f1228aa9043a985c97fa8c8709,
       type: 3}
   - m_RefCount: 1
     m_Data: {fileID: -8015063343330374034, guid: 9891e7f1228aa9043a985c97fa8c8709,
@@ -2138,8 +2137,9 @@ Tilemap:
   - m_RefCount: 1
     m_Data: {fileID: 8098170288446873534, guid: 9891e7f1228aa9043a985c97fa8c8709,
       type: 3}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
+  - m_RefCount: 1
+    m_Data: {fileID: 4680024611940793242, guid: 9891e7f1228aa9043a985c97fa8c8709,
+      type: 3}
   m_TileMatrixArray:
   - m_RefCount: 10
     m_Data:
@@ -2313,6 +2313,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Actor: {fileID: 47610626}
   enables: 0
+  WSM:
+    serializedVersion: 2
+    m_Bits: 64
 --- !u!4 &964019258
 Transform:
   m_ObjectHideFlags: 0
@@ -2428,6 +2431,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Actor: {fileID: 944390360}
   enables: 0
+  WSM:
+    serializedVersion: 2
+    m_Bits: 64
 --- !u!4 &1051079062
 Transform:
   m_ObjectHideFlags: 0
@@ -3205,6 +3211,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Actor: {fileID: 2030643760}
   enables: 0
+  WSM:
+    serializedVersion: 2
+    m_Bits: 64
 --- !u!4 &1581095144
 Transform:
   m_ObjectHideFlags: 0

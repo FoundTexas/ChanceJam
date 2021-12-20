@@ -1930,6 +1930,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Actor: {fileID: 944390360}
   enables: 0
+  WSM:
+    serializedVersion: 2
+    m_Bits: 64
 --- !u!4 &1051079062
 Transform:
   m_ObjectHideFlags: 0
